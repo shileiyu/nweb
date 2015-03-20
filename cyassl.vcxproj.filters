@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="cyassl\internal.c" />
+    <ClCompile Include="cyassl\io.c" />
+    <ClCompile Include="cyassl\keys.c" />
+    <ClCompile Include="cyassl\ocsp.c" />
+    <ClCompile Include="cyassl\ssl.c" />
+    <ClCompile Include="cyassl\tls.c" />
+    <ClCompile Include="cyassl\crl.c" />
+    <ClCompile Include="cyassl\ctaocrypt\rsa.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\sha.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\sha256.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\sha512.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\tfm.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\aes.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\arc4.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\asm.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\asn.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\blake2b.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\camellia.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\coding.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\compress.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\des3.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\dh.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\dsa.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\ecc.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\ecc_fp.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\error.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\fips.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\fips_test.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\hc128.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\hmac.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\integer.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\logging.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\md2.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\md4.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\md5.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\memory.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\misc.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\pkcs7.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\port.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\pwdbased.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\rabbit.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\random.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="cyassl\ctaocrypt\ripemd.c">
+      <Filter>ctaocrypt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ctaocrypt">
+      <UniqueIdentifier>{fd7d98bd-7cf7-4c18-a02d-7f1092df9d2f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

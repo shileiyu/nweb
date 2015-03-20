@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="curl\version.c" />
+    <ClCompile Include="curl\warnless.c" />
+    <ClCompile Include="curl\wildcard.c" />
+    <ClCompile Include="curl\x509asn1.c" />
+    <ClCompile Include="curl\amigaos.c" />
+    <ClCompile Include="curl\asyn-ares.c" />
+    <ClCompile Include="curl\asyn-thread.c" />
+    <ClCompile Include="curl\base64.c" />
+    <ClCompile Include="curl\bundles.c" />
+    <ClCompile Include="curl\conncache.c" />
+    <ClCompile Include="curl\connect.c" />
+    <ClCompile Include="curl\content_encoding.c" />
+    <ClCompile Include="curl\cookie.c" />
+    <ClCompile Include="curl\curl_addrinfo.c" />
+    <ClCompile Include="curl\curl_fnmatch.c" />
+    <ClCompile Include="curl\curl_gethostname.c" />
+    <ClCompile Include="curl\curl_gssapi.c" />
+    <ClCompile Include="curl\curl_memrchr.c" />
+    <ClCompile Include="curl\curl_multibyte.c" />
+    <ClCompile Include="curl\curl_ntlm.c" />
+    <ClCompile Include="curl\curl_ntlm_core.c" />
+    <ClCompile Include="curl\curl_ntlm_msgs.c" />
+    <ClCompile Include="curl\curl_ntlm_wb.c" />
+    <ClCompile Include="curl\curl_rtmp.c" />
+    <ClCompile Include="curl\curl_sasl.c" />
+    <ClCompile Include="curl\curl_sspi.c" />
+    <ClCompile Include="curl\curl_threads.c" />
+    <ClCompile Include="curl\dict.c" />
+    <ClCompile Include="curl\dotdot.c" />
+    <ClCompile Include="curl\easy.c" />
+    <ClCompile Include="curl\escape.c" />
+    <ClCompile Include="curl\file.c" />
+    <ClCompile Include="curl\fileinfo.c" />
+    <ClCompile Include="curl\formdata.c" />
+    <ClCompile Include="curl\ftp.c" />
+    <ClCompile Include="curl\ftplistparser.c" />
+    <ClCompile Include="curl\getenv.c" />
+    <ClCompile Include="curl\getinfo.c" />
+    <ClCompile Include="curl\gopher.c" />
+    <ClCompile Include="curl\hash.c" />
+    <ClCompile Include="curl\hmac.c" />
+    <ClCompile Include="curl\hostasyn.c" />
+    <ClCompile Include="curl\hostcheck.c" />
+    <ClCompile Include="curl\hostip.c" />
+    <ClCompile Include="curl\hostip4.c" />
+    <ClCompile Include="curl\hostip6.c" />
+    <ClCompile Include="curl\hostsyn.c" />
+    <ClCompile Include="curl\http.c" />
+    <ClCompile Include="curl\http_chunks.c" />
+    <ClCompile Include="curl\http_digest.c" />
+    <ClCompile Include="curl\http_negotiate.c" />
+    <ClCompile Include="curl\http_negotiate_sspi.c" />
+    <ClCompile Include="curl\http_proxy.c" />
+    <ClCompile Include="curl\http2.c" />
+    <ClCompile Include="curl\idn_win32.c" />
+    <ClCompile Include="curl\if2ip.c" />
+    <ClCompile Include="curl\imap.c" />
+    <ClCompile Include="curl\inet_ntop.c" />
+    <ClCompile Include="curl\inet_pton.c" />
+    <ClCompile Include="curl\krb5.c" />
+    <ClCompile Include="curl\ldap.c" />
+    <ClCompile Include="curl\llist.c" />
+    <ClCompile Include="curl\md4.c" />
+    <ClCompile Include="curl\md5.c" />
+    <ClCompile Include="curl\memdebug.c" />
+    <ClCompile Include="curl\mprintf.c" />
+    <ClCompile Include="curl\multi.c" />
+    <ClCompile Include="curl\netrc.c" />
+    <ClCompile Include="curl\non-ascii.c" />
+    <ClCompile Include="curl\nonblock.c" />
+    <ClCompile Include="curl\nwlib.c" />
+    <ClCompile Include="curl\nwos.c" />
+    <ClCompile Include="curl\openldap.c" />
+    <ClCompile Include="curl\parsedate.c" />
+    <ClCompile Include="curl\pingpong.c" />
+    <ClCompile Include="curl\pipeline.c" />
+    <ClCompile Include="curl\pop3.c" />
+    <ClCompile Include="curl\progress.c" />
+    <ClCompile Include="curl\rawstr.c" />
+    <ClCompile Include="curl\rtsp.c" />
+    <ClCompile Include="curl\security.c" />
+    <ClCompile Include="curl\select.c" />
+    <ClCompile Include="curl\sendf.c" />
+    <ClCompile Include="curl\share.c" />
+    <ClCompile Include="curl\slist.c" />
+    <ClCompile Include="curl\smtp.c" />
+    <ClCompile Include="curl\socks.c" />
+    <ClCompile Include="curl\socks_gssapi.c" />
+    <ClCompile Include="curl\socks_sspi.c" />
+    <ClCompile Include="curl\speedcheck.c" />
+    <ClCompile Include="curl\splay.c" />
+    <ClCompile Include="curl\ssh.c" />
+    <ClCompile Include="curl\strdup.c" />
+    <ClCompile Include="curl\strequal.c" />
+    <ClCompile Include="curl\strerror.c" />
+    <ClCompile Include="curl\strtok.c" />
+    <ClCompile Include="curl\strtoofft.c" />
+    <ClCompile Include="curl\telnet.c" />
+    <ClCompile Include="curl\tftp.c" />
+    <ClCompile Include="curl\timeval.c" />
+    <ClCompile Include="curl\transfer.c" />
+    <ClCompile Include="curl\url.c" />
+    <ClCompile Include="curl\vtls\curl_darwinssl.c">
+      <Filter>vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\vtls\curl_schannel.c">
+      <Filter>vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\vtls\cyassl.c">
+      <Filter>vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\vtls\gskit.c">
+      <Filter>vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\vtls\gtls.c">
+      <Filter>vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\vtls\nss.c">
+      <Filter>vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\vtls\openssl.c">
+      <Filter>vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\vtls\polarssl.c">
+      <Filter>vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\vtls\polarssl_threadlock.c">
+      <Filter>vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\vtls\qssl.c">
+      <Filter>vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\vtls\vtls.c">
+      <Filter>vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\vtls\axtls.c">
+      <Filter>vtls</Filter>
+    </ClCompile>
+    <ClCompile Include="curl\curl_ext.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="vtls">
+      <UniqueIdentifier>{ec77d96c-4782-486d-8db1-8294ff58819a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

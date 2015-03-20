@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nweb", "nweb.vcxproj", "{644AF65E-05C1-4B5D-A677-8015423FA8DB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cares", "cares.vcxproj", "{135C9AED-2B33-4C20-91EC-682954EFBADC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cyassl", "cyassl.vcxproj", "{D7A03EEF-03C0-423A-AF69-964DC938E6D4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "zlib.vcxproj", "{430CE138-F094-4D4B-9B2D-0D4EE8D67CEC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "curl", "curl.vcxproj", "{69B1E01F-0B20-4519-BEA1-115B0AFD8631}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nweb-test", "nweb-test.vcxproj", "{0EB82C75-B5DD-4491-AAFC-C55662D981F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{644AF65E-05C1-4B5D-A677-8015423FA8DB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{644AF65E-05C1-4B5D-A677-8015423FA8DB}.Debug|Win32.Build.0 = Debug|Win32
+		{644AF65E-05C1-4B5D-A677-8015423FA8DB}.Release|Win32.ActiveCfg = Release|Win32
+		{644AF65E-05C1-4B5D-A677-8015423FA8DB}.Release|Win32.Build.0 = Release|Win32
+		{135C9AED-2B33-4C20-91EC-682954EFBADC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{135C9AED-2B33-4C20-91EC-682954EFBADC}.Debug|Win32.Build.0 = Debug|Win32
+		{135C9AED-2B33-4C20-91EC-682954EFBADC}.Release|Win32.ActiveCfg = Release|Win32
+		{135C9AED-2B33-4C20-91EC-682954EFBADC}.Release|Win32.Build.0 = Release|Win32
+		{D7A03EEF-03C0-423A-AF69-964DC938E6D4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D7A03EEF-03C0-423A-AF69-964DC938E6D4}.Debug|Win32.Build.0 = Debug|Win32
+		{D7A03EEF-03C0-423A-AF69-964DC938E6D4}.Release|Win32.ActiveCfg = Release|Win32
+		{D7A03EEF-03C0-423A-AF69-964DC938E6D4}.Release|Win32.Build.0 = Release|Win32
+		{430CE138-F094-4D4B-9B2D-0D4EE8D67CEC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{430CE138-F094-4D4B-9B2D-0D4EE8D67CEC}.Debug|Win32.Build.0 = Debug|Win32
+		{430CE138-F094-4D4B-9B2D-0D4EE8D67CEC}.Release|Win32.ActiveCfg = Release|Win32
+		{430CE138-F094-4D4B-9B2D-0D4EE8D67CEC}.Release|Win32.Build.0 = Release|Win32
+		{69B1E01F-0B20-4519-BEA1-115B0AFD8631}.Debug|Win32.ActiveCfg = Debug|Win32
+		{69B1E01F-0B20-4519-BEA1-115B0AFD8631}.Debug|Win32.Build.0 = Debug|Win32
+		{69B1E01F-0B20-4519-BEA1-115B0AFD8631}.Release|Win32.ActiveCfg = Release|Win32
+		{69B1E01F-0B20-4519-BEA1-115B0AFD8631}.Release|Win32.Build.0 = Release|Win32
+		{0EB82C75-B5DD-4491-AAFC-C55662D981F6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0EB82C75-B5DD-4491-AAFC-C55662D981F6}.Debug|Win32.Build.0 = Debug|Win32
+		{0EB82C75-B5DD-4491-AAFC-C55662D981F6}.Release|Win32.ActiveCfg = Release|Win32
+		{0EB82C75-B5DD-4491-AAFC-C55662D981F6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

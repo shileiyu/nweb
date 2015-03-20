@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="cares\ares__close_sockets.c" />
+    <ClCompile Include="cares\ares__get_hostent.c" />
+    <ClCompile Include="cares\ares__read_line.c" />
+    <ClCompile Include="cares\ares__timeval.c" />
+    <ClCompile Include="cares\ares_cancel.c" />
+    <ClCompile Include="cares\ares_create_query.c" />
+    <ClCompile Include="cares\ares_data.c" />
+    <ClCompile Include="cares\ares_destroy.c" />
+    <ClCompile Include="cares\ares_expand_name.c" />
+    <ClCompile Include="cares\ares_expand_string.c" />
+    <ClCompile Include="cares\ares_fds.c" />
+    <ClCompile Include="cares\ares_free_hostent.c" />
+    <ClCompile Include="cares\ares_free_string.c" />
+    <ClCompile Include="cares\ares_getenv.c" />
+    <ClCompile Include="cares\ares_gethostbyaddr.c" />
+    <ClCompile Include="cares\ares_gethostbyname.c" />
+    <ClCompile Include="cares\ares_getnameinfo.c" />
+    <ClCompile Include="cares\ares_getopt.c" />
+    <ClCompile Include="cares\ares_getsock.c" />
+    <ClCompile Include="cares\ares_init.c" />
+    <ClCompile Include="cares\ares_library_init.c" />
+    <ClCompile Include="cares\ares_llist.c" />
+    <ClCompile Include="cares\ares_mkquery.c" />
+    <ClCompile Include="cares\ares_nowarn.c" />
+    <ClCompile Include="cares\ares_options.c" />
+    <ClCompile Include="cares\ares_parse_a_reply.c" />
+    <ClCompile Include="cares\ares_parse_aaaa_reply.c" />
+    <ClCompile Include="cares\ares_parse_mx_reply.c" />
+    <ClCompile Include="cares\ares_parse_naptr_reply.c" />
+    <ClCompile Include="cares\ares_parse_ns_reply.c" />
+    <ClCompile Include="cares\ares_parse_ptr_reply.c" />
+    <ClCompile Include="cares\ares_parse_soa_reply.c" />
+    <ClCompile Include="cares\ares_parse_srv_reply.c" />
+    <ClCompile Include="cares\ares_parse_txt_reply.c" />
+    <ClCompile Include="cares\ares_platform.c" />
+    <ClCompile Include="cares\ares_process.c" />
+    <ClCompile Include="cares\ares_query.c" />
+    <ClCompile Include="cares\ares_search.c" />
+    <ClCompile Include="cares\ares_send.c" />
+    <ClCompile Include="cares\ares_strcasecmp.c" />
+    <ClCompile Include="cares\ares_strdup.c" />
+    <ClCompile Include="cares\ares_strerror.c" />
+    <ClCompile Include="cares\ares_timeout.c" />
+    <ClCompile Include="cares\ares_version.c" />
+    <ClCompile Include="cares\ares_writev.c" />
+    <ClCompile Include="cares\bitncmp.c" />
+    <ClCompile Include="cares\windows_port.c" />
+    <ClCompile Include="cares\acountry.c" />
+    <ClCompile Include="cares\inet_ntop.c" />
+    <ClCompile Include="cares\inet_net_pton.c" />
+  </ItemGroup>
+</Project>

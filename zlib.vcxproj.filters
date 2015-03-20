@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="zlib\gzread.c" />
+    <ClCompile Include="zlib\gzwrite.c" />
+    <ClCompile Include="zlib\infback.c" />
+    <ClCompile Include="zlib\inffast.c" />
+    <ClCompile Include="zlib\inflate.c" />
+    <ClCompile Include="zlib\inftrees.c" />
+    <ClCompile Include="zlib\ioapi.c" />
+    <ClCompile Include="zlib\iowin32.c" />
+    <ClCompile Include="zlib\mztools.c" />
+    <ClCompile Include="zlib\trees.c" />
+    <ClCompile Include="zlib\uncompr.c" />
+    <ClCompile Include="zlib\unzip.c" />
+    <ClCompile Include="zlib\zip.c" />
+    <ClCompile Include="zlib\zlib_compress.c" />
+    <ClCompile Include="zlib\zutil.c" />
+    <ClCompile Include="zlib\adler32.c" />
+    <ClCompile Include="zlib\crc32.c" />
+    <ClCompile Include="zlib\deflate.c" />
+    <ClCompile Include="zlib\gzclose.c" />
+    <ClCompile Include="zlib\gzlib.c" />
+  </ItemGroup>
+</Project>

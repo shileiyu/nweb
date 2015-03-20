@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cyassl\crl.c" />
+    <ClCompile Include="cyassl\ctaocrypt\aes.c" />
+    <ClCompile Include="cyassl\ctaocrypt\arc4.c" />
+    <ClCompile Include="cyassl\ctaocrypt\asm.c" />
+    <ClCompile Include="cyassl\ctaocrypt\asn.c" />
+    <ClCompile Include="cyassl\ctaocrypt\blake2b.c" />
+    <ClCompile Include="cyassl\ctaocrypt\camellia.c" />
+    <ClCompile Include="cyassl\ctaocrypt\coding.c" />
+    <ClCompile Include="cyassl\ctaocrypt\compress.c" />
+    <ClCompile Include="cyassl\ctaocrypt\des3.c" />
+    <ClCompile Include="cyassl\ctaocrypt\dh.c" />
+    <ClCompile Include="cyassl\ctaocrypt\dsa.c" />
+    <ClCompile Include="cyassl\ctaocrypt\ecc.c" />
+    <ClCompile Include="cyassl\ctaocrypt\ecc_fp.c" />
+    <ClCompile Include="cyassl\ctaocrypt\error.c" />
+    <ClCompile Include="cyassl\ctaocrypt\fips.c" />
+    <ClCompile Include="cyassl\ctaocrypt\fips_test.c" />
+    <ClCompile Include="cyassl\ctaocrypt\hc128.c" />
+    <ClCompile Include="cyassl\ctaocrypt\hmac.c" />
+    <ClCompile Include="cyassl\ctaocrypt\integer.c" />
+    <ClCompile Include="cyassl\ctaocrypt\logging.c" />
+    <ClCompile Include="cyassl\ctaocrypt\md2.c" />
+    <ClCompile Include="cyassl\ctaocrypt\md4.c" />
+    <ClCompile Include="cyassl\ctaocrypt\md5.c" />
+    <ClCompile Include="cyassl\ctaocrypt\memory.c" />
+    <ClCompile Include="cyassl\ctaocrypt\misc.c" />
+    <ClCompile Include="cyassl\ctaocrypt\pkcs7.c" />
+    <ClCompile Include="cyassl\ctaocrypt\port.c" />
+    <ClCompile Include="cyassl\ctaocrypt\pwdbased.c" />
+    <ClCompile Include="cyassl\ctaocrypt\rabbit.c" />
+    <ClCompile Include="cyassl\ctaocrypt\random.c" />
+    <ClCompile Include="cyassl\ctaocrypt\ripemd.c" />
+    <ClCompile Include="cyassl\ctaocrypt\rsa.c" />
+    <ClCompile Include="cyassl\ctaocrypt\sha.c" />
+    <ClCompile Include="cyassl\ctaocrypt\sha256.c" />
+    <ClCompile Include="cyassl\ctaocrypt\sha512.c" />
+    <ClCompile Include="cyassl\ctaocrypt\tfm.c" />
+    <ClCompile Include="cyassl\internal.c" />
+    <ClCompile Include="cyassl\io.c" />
+    <ClCompile Include="cyassl\keys.c" />
+    <ClCompile Include="cyassl\ocsp.c" />
+    <ClCompile Include="cyassl\ssl.c" />
+    <ClCompile Include="cyassl\tls.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D7A03EEF-03C0-423A-AF69-964DC938E6D4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>cyassl</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>out\$(Configuration)\</OutDir>
+    <IntDir>build\cyassl\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>out\$(Configuration)\</OutDir>
+    <IntDir>build\cyassl\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
